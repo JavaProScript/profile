@@ -1,0 +1,74 @@
+/* general stuff */
+body {
+  background-image: url(https://picsum.photos/1000/600);
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+h1 {
+  color: rgb(40, 40, 60);
+  font-size: 32px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: normal;
+}
+a {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  color: blueviolet;
+}
+
+/* container stuff */
+.container {
+  width: 700px;
+  margin: auto;
+}
+/* responsivity stuff*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.opaque {
+  opacity: 1;
+}
+strong {
+  font-weight: bold;
+}
+.card-beige {
+  background-color: rgb(245, 245, 220);
+  border-radius: 4px;
+  box-shadow: 2px 2px rgb(235, 235, 210);
+  margin-bottom: 20px;
+  padding: 10px;
+  opacity: 0.9;
+}
+.center-text {
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.img-circle {
+  border-radius: 100%;
+}
